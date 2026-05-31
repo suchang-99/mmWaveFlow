@@ -11,7 +11,7 @@
 
 ## 🔥 Highlights
 
-* **Unified framework **. mmWaveFlow is based on a flow matching model and unifies the enhancement and generation of mmWave human point clouds. 💪
+* **Unified framework**. mmWaveFlow is based on a flow matching model and unifies the enhancement and generation of mmWave human point clouds. 💪
 * **More friendly**. mmWaveFlow can train all models on less 24G GPU memory (i.e., RTX 3090 are enough to train mmWaveFlow). 😀
 
 ## News
