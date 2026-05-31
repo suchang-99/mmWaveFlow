@@ -34,7 +34,7 @@ Prepare the data.
 * **mmBody**
   * Download the dataset from [here]([GitHub - Chen3110/mmBody · GitHub](https://github.com/Chen3110/mmBody)) and place them under `data/mmbody/`.
 * **MRI**
-  * Download the dataset from [here]((https://github.com/SizheAn/mRI)) and place them under `data/mri/`.
+  * Download the dataset from [here](https://github.com/SizheAn/mRI) and place them under `data/mri/`.
 * **SLOPER4D**
   * Download the dataset from [here](https://github.com/ybhbingo/MMFi_dataset) and place them under `data/mmfi/`.
 
@@ -86,6 +86,6 @@ If you find this method and/or code useful, please consider citing
 ## Acknowledgements
 We thank these great works and open-source repositories (in no particular order).
 
-- [3DShape2VecSet]([GitHub - 1zb/3DShape2VecSet · GitHub](https://github.com/1zb/3DShape2VecSet)) 
-- [RectifiedFlow]([GitHub - gnobitab/RectifiedFlow: Official Implementation of Rectified Flow (ICLR2023 Spotlight) · GitHub](https://github.com/gnobitab/RectifiedFlow)) 
-- [DiT]((https://github.com/facebookresearch/DiT)) 
+- [3DShape2VecSet](https://github.com/1zb/3DShape2VecSet)
+- [RectifiedFlow](https://github.com/gnobitab/RectifiedFlow) 
+- [DiT](https://github.com/facebookresearch/DiT) 
