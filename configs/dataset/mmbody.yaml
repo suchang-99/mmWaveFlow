@@ -1,0 +1,26 @@
+_target_: dataloader
+opt:
+  data_path: 'data/mmbody'
+  isTrain: True
+  use_generated_data_file: True
+  noise_mean: 0.005
+  noise_var: 0.005
+  hasmesh: True
+  pc_num: 512
+  joint_train_epoch: 15
+  z_kl: 1e-3
+  z_flow: 0.1
+  pc_re: 50
+  mm_re: 50
+  em: 5
+  mmem: 5
+  mcl: 0.1
+  reg: 0
+  one_stage_lr: 1e-4
+  two_stage_lr: 1e-4
+  is_rotate: False
+  cl_temperature: 0.5
+  enhance_cl: True
+  drop_rate: 0.1
+
+dataname: mmbody

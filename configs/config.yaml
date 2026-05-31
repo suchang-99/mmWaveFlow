@@ -1,0 +1,34 @@
+core:
+    is_debug: True
+    device: cuda:0
+    is_gen: True
+    is_reparam: True
+    is_test_reparam: False
+    is_add_noise: False
+    latent_num: 8
+    latent_dim: 64
+    is_l2m: False
+    is_pred_global: False
+    is_joint: True
+    is_onedir_align: False
+    is_scale_latent: False
+    is_pcgrad: True
+    is_gen_for_downstream: False
+    is_nashmtl: False
+    ini_flow_depth: 3
+    final_flow_depth: 30
+
+
+dataloader:
+  train:
+    batch_size: 128
+    num_workers: 0
+    shuffle: True
+  test:
+    batch_size: 256
+    num_workers: 0
+    shuffle: True
+
+
+defaults:
+    - dataset: mmbody

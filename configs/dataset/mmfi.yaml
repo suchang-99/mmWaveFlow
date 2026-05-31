@@ -1,0 +1,20 @@
+_target_: dataloader.Humman_DataLoader.HummanDataLoader
+opt:
+  pc_num: 512
+  joint_train_epoch: 30
+  z_kl: 1e-5
+  z_flow: 0.1
+  pc_re: 50
+  mm_re: 50
+  em: 5
+  mmem: 5
+  mcl: 0.1
+  reg: 0
+  one_stage_lr: 1e-4
+  two_stage_lr: 1e-4 
+  cl_temperature: 1
+  enhance_cl: False
+  drop_rate: 0
+
+
+dataname: mmfi
