@@ -35,7 +35,7 @@ Prepare the data.
   * Download the dataset from [here](https://github.com/Chen3110/mmBody) and place them under `data/mmbody/`.
 * **MRI**
   * Download the dataset from [here](https://github.com/SizheAn/mRI) and place them under `data/mri/`.
-* **SLOPER4D**
+* **MM-Fi**
   * Download the dataset from [here](https://github.com/ybhbingo/MMFi_dataset) and place them under `data/mmfi/`.
 
 I refactored the code but haven't tested the data-preprocessing part yet — there might be small issues like wrong paths. I'll revisit and improve the code when I have time.
