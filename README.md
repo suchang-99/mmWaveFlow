@@ -32,7 +32,7 @@ Prepare parametric human models and related files.
 Prepare the data.
 
 * **mmBody**
-  * Download the dataset from [here]([GitHub - Chen3110/mmBody · GitHub](https://github.com/Chen3110/mmBody)) and place them under `data/mmbody/`.
+  * Download the dataset from [here](https://github.com/Chen3110/mmBody) and place them under `data/mmbody/`.
 * **MRI**
   * Download the dataset from [here](https://github.com/SizheAn/mRI) and place them under `data/mri/`.
 * **SLOPER4D**
