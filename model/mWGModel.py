@@ -248,8 +248,8 @@ class mWGModel(nn.Module):
             mcl+=torch.nn.functional.l1_loss(z_mu,mmz_mu.detach(),reduction="mean")
 
 
-        emdl=torch.mean(EMD(data, pc_recons, False))
-        mmemd=torch.mean(EMD(mmdata, mm_recons, False))
+        emdl=torch.mean(EMD(data, pc_recons, False)/data.shape[1])
+        mmemd=torch.mean(EMD(mmdata, mm_recons, False)/mmdata.shape[1])
         
         loss={
             "z_kl":z_loss,
@@ -299,8 +299,8 @@ class mWGModel(nn.Module):
 
         d2m_recons_loss = torch.mean(dist1[tmp_mask]) + torch.mean(dist2)
 
-        emdl=torch.mean(EMD(dense_data, sampled_dense_pc, False))
-        mmemd=torch.mean(EMD(mmdata, sample_mm_pc, False))
+        emdl=torch.mean(EMD(dense_data, sampled_dense_pc, False)/dense_data.shape[1])
+        mmemd=torch.mean(EMD(mmdata, sample_mm_pc, False)/mmdata.shape[1])
 
         sample_result={
             "cd":m2d_recons_loss,
